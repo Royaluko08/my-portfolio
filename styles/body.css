@@ -1,0 +1,20 @@
+html {
+  background-image: url("/pictures/download-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgb(255, 255, 255);
+  font-family: Tahoma;
+}
+body {
+  margin: 0px 90px 0px 90px;
+}
+p {
+  margin: 0px;
+}
+main {
+  margin-top: 10px;
+}
+#C1 {
+  visibility: hidden;
+}

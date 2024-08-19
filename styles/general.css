@@ -1,0 +1,177 @@
+section {
+  padding: 12px;
+}
+
+section h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 900; 
+  font-size: 29px;
+  margin-bottom: 0px;
+}
+.a-t {
+  animation: slide-down 2s ;
+}
+@keyframes slide-down{
+  0%{transform: translateX(40px); opacity: 0%;}
+  90%{transform: translateY(-10px); opacity: 80%;}
+  100%{transform: translateY(0px);opacity: 100%}
+}
+section .info {
+  margin-top: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  text-align: justify;
+  cursor: pointer;
+  animation: slide-up 2s ;
+}
+@keyframes slide-up {
+  0%{transform: translateY(40px); opacity: 0%;}
+  90%{transform: translateY(0px); opacity: 80%;}
+  100%{transform: translateY(0px);opacity: 100%}
+}
+.lorem {
+  margin: 30px 30px 0px 0px;
+  display: flex;
+  justify-content: left;
+  height: 122px;
+}
+
+.lor {
+  height: 80px;
+  margin: 10px 10px 0px 10px;
+  border-radius: 37px;
+  animation: slide-down 2s;
+}
+@keyframes slide-down{
+  0%{transform: translateX(40px); opacity: 0%;}
+  90%{transform: translateY(-10px); opacity: 80%;}
+  100%{transform: translateY(0px);opacity: 100%}
+}
+/****************************** PORTFOLIO ***********************/
+a,h3 {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+.portfolio {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+  animation: slide-up 2s  ;
+}
+.portfolio img {
+  width: 80%;
+  margin: auto;
+}
+.banner, .bookcover {
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+  background-color: rgb(16, 41, 61);
+}
+@keyframes slide-up {
+  0%{transform: translateY(40px); opacity: 0%;}
+  90%{transform: translateY(0px); opacity: 80%;}
+  100%{transform: translateY(0px);opacity: 100%}
+}
+.banner img, .bookcover img {
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+.banner img:hover, .bookcover img:hover {
+  box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.527);
+  transition: box shadow 0.15s;
+}
+
+.banner h2, .bookcover h2 {
+  color: white;
+  margin-top: 0px;
+}
+
+/****************************** LOGO PORTFOLIO ***********************/
+.portfolio-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+  animation: slide-up 2s ;
+}
+.portfolio-2 img {
+  width: 70%;
+  margin: auto;
+}
+.banner-2 {
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+  background-color: rgb(16, 41, 61);
+}
+.banner-2 img {
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+.banner-2 img:hover {
+  box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.527);
+  transition: box shadow 0.15s;
+}
+.banner-2 h2 {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+
+/*********Footer******Author's Information *********/
+
+
+footer nav {
+  background-color: rgba(0, 0, 0, 0);
+}
+  nav .li {
+    list-style-type: none;
+    padding: 20px;
+    display: flex;
+  }
+ .lit {
+  visibility: hidden;
+  margin-top: -100px;
+}
+.li {
+  list-style-type: none;
+  display: flex;
+}
+.li a{
+    color: white;
+    text-decoration: none; transition: 0.15s; opacity: 0.5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold; margin: 0px;
+  }
+  .li a:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+ .w:hover {
+    color: rgb(77, 255, 77);
+    opacity: 4;
+    text-decoration: underline;
+  }
+ .l:hover {
+    color: rgb(36, 204, 255);
+    opacity: 4;
+    text-decoration: underline;
+  }
+  .e:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    background-color: rgb(14, 0, 12);
+    margin-bottom: -20px;
+    color: white;
+  }

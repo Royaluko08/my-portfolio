@@ -1,0 +1,520 @@
+@media (max-width: 912px) {
+  body {
+    margin: 0px;
+  } 
+   header {
+    margin: 0px;
+  }
+  header img {
+    width: 25%;
+    margin: auto;
+  }
+  header  nav .li {
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -270px;
+  }
+  .lorem {
+    font-size: 19px;
+  }
+  main {
+    width: 97%;
+    margin: auto;
+  }
+  .portfolio {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+/********* PORTFOLIO LISTS *********/
+.header-2 img {
+  width: 20%;
+  margin: auto;
+  }
+  
+  .header-2  nav .li {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  font-family: 'Lucida Sans';
+  }
+  .lit {
+  margin: 0px;
+  visibility: visible;
+  padding-bottom: 5px;
+  }
+  .lit, .lit a {
+  color: black;
+  display: inline-block;
+  }
+  /****************************** LOGO PORTFOLIO ***********************/
+  .portfolio-2 {
+  grid-template-columns: 1fr 1fr;
+  }
+  .portfolio-2 img {
+  width: 70%;
+  margin: auto;
+  }
+  
+  .banner-2 img {
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  }
+  .banner-2 img:hover {
+  box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.527);
+  transition: box shadow 0.15s;
+  }
+  .banner-2 h2 {
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  }
+  /*********Footer******Author's Information *********/
+  
+  footer  nav .li {
+  display: flex;
+  flex-direction: row;
+  }
+  .w {  color: rgb(77, 255, 77);}
+  .l {  color: rgb(36, 204, 255);}
+  .li a {
+  font-size: 12.5px;
+  }
+}
+
+
+/************************************************************************/
+
+@media (max-width: 830px) {
+  body {
+    margin: 0px;
+  } 
+   header {
+    margin: 0px;
+  }
+  header img {
+    width: 25%;
+    margin: auto;
+  }
+  header  nav .li {
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -270px;
+  }
+  .lorem {
+    font-size: 19px;
+  }
+  main {
+    width: 97%;
+    margin: auto;
+  }
+  .portfolio {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+/********* PORTFOLIO LISTS *********/
+.header-2 img {
+  width: 20%;
+  margin: auto;
+  }
+  
+  .header-2  nav .li {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  font-family: 'Lucida Sans';
+  }
+  .lit {
+  margin: 0px;
+  visibility: visible;
+  padding-bottom: 5px;
+  }
+  .lit, .lit a {
+  color: black;
+  display: inline-block;
+  }
+  /****************************** LOGO PORTFOLIO ***********************/
+  .portfolio-2 {
+  grid-template-columns: 1fr 1fr;
+  }
+  .portfolio-2 img {
+  width: 70%;
+  margin: auto;
+  }
+  
+  .banner-2 img {
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  }
+  .banner-2 img:hover {
+  box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.527);
+  transition: box shadow 0.15s;
+  }
+  .banner-2 h2 {
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  }
+  /*********Footer******Author's Information *********/
+  
+  footer  nav .li {
+  display: flex;
+  flex-direction: row;
+  }
+  .w {  color: rgb(77, 255, 77);}
+  .l {  color: rgb(36, 204, 255);}
+  .li a {
+  font-size: 12.5px;
+  }
+}
+
+/****************************************************************************************************************/
+
+@media (max-width: 540px) {
+  body {
+    margin: 0px;
+  }
+  .lorem {
+    font-size: 15px;
+  }
+  main {
+    width: 92%;
+    margin: auto;
+  }
+  .portfolio {
+    grid-template-columns: 1fr 1fr;
+  }
+  header {
+    margin: 0px;
+  }
+  header img {
+    width: 30%;
+    margin: auto;
+  }
+header  nav .li {
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -120px;
+}
+
+/********* PORTFOLIO LISTS *********/
+.header-2 img {
+width: 20%;
+margin: auto;
+}
+
+.header-2  nav .li {
+list-style-type: none;
+display: flex;
+justify-content: center;
+font-family: 'Lucida Sans';
+}
+.lit {
+margin: 0px;
+visibility: visible;
+padding-bottom: 5px;
+}
+.lit, .lit a {
+color: black;
+display: inline-block;
+}
+/****************************** LOGO PORTFOLIO ***********************/
+.portfolio-2 {
+grid-template-columns: 1fr;
+}
+.portfolio-2 img {
+width: 70%;
+margin: auto;
+}
+
+.banner-2 img {
+display: flex;
+justify-content: center;
+border-radius: 20px;
+}
+.banner-2 img:hover {
+box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.527);
+transition: box shadow 0.15s;
+}
+.banner-2 h2 {
+font-size: 14px;
+color: white;
+text-decoration: none;
+}
+/*********Footer******Author's Information *********/
+
+footer  nav .li {
+display: flex;
+flex-direction: column;
+}
+.w {  color: rgb(77, 255, 77);}
+.l {  color: rgb(36, 204, 255);}
+.li a {
+font-size: 12.5px;
+}
+}
+
+/***************************************************************************************************************/
+
+@media (max-width:426px) {
+  body {
+    margin: 0px;
+  }
+  .lorem {
+    font-size: 15px;
+  }
+  main {
+    width: 92%;
+    margin: auto;
+  }
+  .portfolio {
+    grid-template-columns: 1fr ;
+  }
+  header {
+    margin: 0px;
+  }
+  header img {
+    width: 60%;
+    margin: auto;
+  }
+header  nav .li {
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -120px;
+}
+
+/********* PORTFOLIO LISTS *********/
+.header-2 img {
+width: 40%;
+margin: auto;
+}
+
+.header-2  nav .li {
+list-style-type: none;
+display: flex;
+justify-content: center;
+font-family: 'Lucida Sans';
+}
+.lit {
+margin: 0px;
+visibility: visible;
+padding-bottom: 5px;
+}
+.lit, .lit a {
+color: black;
+display: inline-block;
+}
+/****************************** LOGO PORTFOLIO ***********************/
+.portfolio-2 {
+grid-template-columns: 1fr;
+}
+.portfolio-2 img {
+width: 70%;
+margin: auto;
+}
+
+.banner-2 img {
+display: flex;
+justify-content: center;
+border-radius: 20px;
+}
+.banner-2 img:hover {
+box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.527);
+transition: box shadow 0.15s;
+}
+.banner-2 h2 {
+font-size: 14px;
+color: white;
+text-decoration: none;
+}
+/*********Footer******Author's Information *********/
+
+footer  nav .li {
+display: flex;
+flex-direction: column;
+}
+.w {  color: rgb(77, 255, 77);}
+.l {  color: rgb(36, 204, 255);}
+.li a {
+font-size: 12.5px;
+}
+  }
+
+/**************************************************************************************************************/
+
+  @media (max-width: 374px) {
+      body {
+        margin: 0px;
+      }
+      .lorem {
+        font-size: 15px;
+      }
+      main {
+        width: 92%;
+        margin: auto;
+      }
+      .portfolio {
+        grid-template-columns: 1fr ;
+      }
+      header {
+        margin: 0px;
+      }
+      header img {
+        width: 70%;
+        margin: auto;
+      }
+    header  nav .li {
+      visibility: hidden;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: -120px;
+    }
+  
+    /********* PORTFOLIO LISTS *********/
+  .header-2 img {
+    width: 40%;
+    margin: auto;
+  }
+  
+  .header-2  nav .li {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans';
+  }
+  .lit {
+    margin: 0px;
+    visibility: visible;
+    padding-bottom: 5px;
+  }
+  .lit, .lit a {
+    color: black;
+    display: inline-block;
+  }
+  /****************************** LOGO PORTFOLIO ***********************/
+  .portfolio-2 {
+    grid-template-columns: 1fr ;
+  }
+  .portfolio-2 img {
+    width: 70%;
+    margin: auto;
+  }
+  
+  .banner-2 img {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+  }
+  .banner-2 img:hover {
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.527);
+    transition: box shadow 0.15s;
+  }
+  .banner-2 h2 {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  /*********Footer******Author's Information *********/
+  
+  footer  nav .li {
+    display: flex;
+    flex-direction: column;
+  }
+  .w {  color: rgb(77, 255, 77);}
+  .l {  color: rgb(36, 204, 255);}
+  .li a {
+  font-size: 12.5px;
+  }
+    }
+
+/*****************************************************************************************************************************/
+  
+
+@media (max-width: 280px) {
+    body {
+      margin: 0px;
+    }
+    .lorem {
+      font-size: 15px;
+    }
+    main {
+      width: 92%;
+      margin: auto;
+    }
+    .portfolio {
+      grid-template-columns: 1fr ;
+    }
+    header {
+      margin: 0px;
+    }
+    header img {
+      width: 70%;
+      margin: auto;
+    }
+  header  nav .li {
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -120px;
+  }
+
+  /********* PORTFOLIO LISTS *********/
+.header-2 img {
+  width: 40%;
+  margin: auto;
+}
+
+.header-2  nav .li {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  font-family: 'Lucida Sans';
+}
+.lit {
+  margin: 0px;
+  visibility: visible;
+  padding-bottom: 5px;
+}
+.lit, .lit a {
+  color: black;
+  display: inline-block;
+}
+/****************************** LOGO PORTFOLIO ***********************/
+.portfolio-2 {
+  grid-template-columns: 1fr ;
+}
+.portfolio-2 img {
+  width: 70%;
+  margin: auto;
+}
+
+.banner-2 img {
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+.banner-2 img:hover {
+  box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.527);
+  transition: box shadow 0.15s;
+}
+.banner-2 h2 {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+/*********Footer******Author's Information *********/
+
+footer  nav .li {
+  display: flex;
+  flex-direction: column;
+}
+.w {  color: rgb(77, 255, 77);}
+.l {  color: rgb(36, 204, 255);}
+.li a {
+font-size: 12.5px;
+}
+  }
